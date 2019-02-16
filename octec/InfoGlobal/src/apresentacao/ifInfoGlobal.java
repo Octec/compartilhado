@@ -101,7 +101,7 @@ public class ifInfoGlobal extends JFrame {
 			btGerarRelatorio.setText("Gerar relatorio");
 			btGerarRelatorio.setFont(new Font("Tahoma", Font.PLAIN, 16));
 			btGerarRelatorio.addActionListener(e -> btGerarRelatorioActionPerformed(e));
-			panel1.add(btGerarRelatorio, "cell 1 1");
+			panel1.add(btGerarRelatorio, "cell 1 0");
 		}
 		contentPane.add(panel1, BorderLayout.CENTER);
 		pack();
