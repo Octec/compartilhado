@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.6.0.final using JasperReports Library version 6.6.0  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="segundo" pageWidth="595" pageHeight="842" whenNoDataType="AllSectionsNoDetail" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="c81954bc-5d5c-429e-98e9-a4b51d8c98c5">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+	<parameter name="info" class="java.lang.String"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<title>
+		<band height="101" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="0" width="555" height="40" uuid="384e0837-d553-4ef5-a603-7f6c06af3b7e"/>
+				<textElement textAlignment="Center">
+					<font fontName="Tahoma" size="26"/>
+				</textElement>
+				<text><![CDATA[Segundo relatorio]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="0" y="0" width="80" height="10" uuid="a007bdc7-8075-4678-aba8-dab32549f00c"/>
+				<textElement>
+					<font fontName="Tahoma" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="61" width="555" height="30" uuid="9ef63f76-3b0c-4899-a4b8-2f1f9ae93de0"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{info}]]></textFieldExpression>
+			</textField>
+		</band>
+	</title>
+	<noData>
+		<band height="50">
+			<staticText>
+				<reportElement x="150" y="9" width="280" height="30" uuid="747aa829-1fbd-4ab3-853c-1377c21781e9"/>
+				<textElement>
+					<font size="20"/>
+				</textElement>
+				<text><![CDATA[Sem dados para mostrar]]></text>
+			</staticText>
+		</band>
+	</noData>
+</jasperReport>

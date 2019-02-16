@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.6.0.final using JasperReports Library version 6.6.0  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="kebe" pageWidth="595" pageHeight="842" whenNoDataType="NoDataSection" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="3e3005e7-b2eb-4aa8-8a7a-4682367aa156">
+	<parameter name="info" class="java.lang.String"/>
+	<parameter name="valor" class="java.lang.Integer"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="285" splitType="Stretch">
+			<staticText>
+				<reportElement x="71" y="10" width="412" height="40" uuid="0ae8c1f4-e494-4bba-b104-40ed4dbc369a"/>
+				<textElement textAlignment="Center">
+					<font size="26"/>
+				</textElement>
+				<text><![CDATA[Sem dados ...]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="7" y="58" width="100" height="22" uuid="13dda904-ad97-4801-a3a9-cfe8de0538e1"/>
+				<textFieldExpression><![CDATA[$P{info}]]></textFieldExpression>
+			</textField>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="35" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="61" splitType="Stretch"/>
+	</columnHeader>
+	<detail>
+		<band height="234" splitType="Stretch"/>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+	<noData>
+		<band height="50">
+			<staticText>
+				<reportElement x="154" y="17" width="206" height="30" uuid="cfdbac6c-ed3a-4a25-b623-5a3ef8ab2cb1"/>
+				<text><![CDATA[Sem dados neste relatorio]]></text>
+			</staticText>
+		</band>
+	</noData>
+</jasperReport>
