@@ -12,7 +12,7 @@ public class Principal {
 			e1.printStackTrace();
 		}
 		
-		System.out.println("Ol···");
+		System.out.println("Ol· Mundo");
 		
 		ifInfoGlobal i = new ifInfoGlobal();
 		i.setVisible(true);
